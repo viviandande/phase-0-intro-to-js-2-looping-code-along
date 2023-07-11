@@ -1,14 +1,15 @@
 // Code your solutions in this file
-function writeCards(friends, message){
+function writeCards(names, message){
     let messages = []
-for (const friend of friends){
- messages.push (`Thank you, ${friend}, for the wonderful ${message} gift!`)
+for (const name of names){
+ messages.push (`Thank you, ${name}, for the wonderful ${message} gift!`)
 }
+    // the argument(message) is what is interpoalate and messages is pushed
 return messages
 }
 
 function countDown(n){
-for(let i=n;i>=0;i--){
-    console.log (i)
+for(let count = n; count >= 0; count--){
+    console.log (count)
 }
 }
